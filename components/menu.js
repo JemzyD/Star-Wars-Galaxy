@@ -6,7 +6,7 @@ import {
   VrButton,
   StyleSheet
 } from 'react-vr';
-import planets from '../data/planets';
+import characters from '../data/characters';
 
 export default class Menu extends React.Component {
   constructor(props) {
@@ -18,7 +18,7 @@ export default class Menu extends React.Component {
     };
   }
 
-  // a button to swap between planets
+  // a button to swap between characters
   planetButton(planet) {
     const {activePlanet} = this.state;
     const selected = activePlanet === planet;
@@ -72,7 +72,7 @@ export default class Menu extends React.Component {
       <View
         billboarding={'on'}
         style={styles.menu}>
-        { Object.keys(planets).map((planet) =>
+        { Object.keys(characters).map((planet) =>
           this.planetButton(planet)) }
       </View>
     );

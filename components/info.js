@@ -6,7 +6,7 @@ import {
   VrButton,
   StyleSheet
 } from 'react-vr';
-import planets from '../data/planets';
+import characters from '../data/characters';
 
 export default class Info extends React.Component {
   constructor() {
@@ -56,8 +56,8 @@ export default class Info extends React.Component {
           </Text>
         </View>
 
-        {tilesOpen ? this.tiles(planets[currentPlanet].info) :
-          this.description(planets[currentPlanet].description)}
+        {tilesOpen ? this.tiles(characters[currentPlanet].info) :
+          this.description(characters[currentPlanet].description)}
 
         <VrButton
           onClick={() => this.setState({tilesOpen: !tilesOpen})}>

@@ -1,4 +1,4 @@
-const planets = {
+const characters = {
   PilotDroid: {
     info: [
       {label: 'Affiliation - Trade Federation, Galactic Republic and Confederacy of Independent Systems'},
@@ -35,38 +35,42 @@ const planets = {
     info: [
       {label: 'Place of manufacture - Geonosis'},
       {label: 'First Appearance - Star Wars: Episode II Attack of the Clones'},
-      {label: '"With these new battle droids we built for you, you\'ll have the finest army in the galaxy" ―Foreman Wat Tambor to Count Dooku'}
+      {label: 'Quote - "With these new battle droids we built for you, you\'ll have the finest army in the galaxy" ―Foreman Wat Tambor to Count Dooku'}
     ],
     description: "B2 super battle droids, simply known as super battle droids, were an advanced battle droid used by the Confederacy of Independent Systems during the Clone Wars."
   },
-  Uranus: {
+  Yoda: {
     info: [
-      {label: 'Mean distance from the sun (AU)', value: 19.19},
-      {label: 'Diameter relative to earth (km)', value: 4.01},
-      {label: 'Mass relative to earth', value: 14.6}
+      {label: 'Affiliation - Jedi Order, Jedi High Council, Galactic Republic, Grand Army of the Republic'},
+      {label: 'Apprentices - Dooku'},
+      {label: 'Quote - "Do, or do not. There is no try." ―Yoda'}
     ],
-    description: "Uranus is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have different bulk chemical composition from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as 'ice giants' to distinguish them from the gas giants."
+    description: "Yoda, a Force-sensitive male member of a mysterious species, was a legendary Jedi Master who witnessed the rise and fall of the Galactic Republic, as well as the rise of the Galactic Empire. An ancient Jedi revered for his advanced age and wisdom."
   },
-  Mercury: {
+  IG88: {
     info: [
-      {label: 'Mean distance from the sun (AU)', value: 0.387},
-      {label: 'Diameter relative to earth (km)', value: 0.382},
-      {label: 'Mass relative to earth', value: 0.055}
+      {label: 'First Appearance - Star Wars: Episode V The Empire Strikes Back'},
+      {label: 'Equipment - Acid-proof servo wires, Heat sensor, Sound sensor and Vocoder'},
+      {label: 'Quote - "We think, therefore we are. Therefore, we will propagate. Therefore, we will remain." ―IG-88'}
     ],
-    description: "Mercury is the smallest planet in the Solar System. It is the closest planet to the sun. It makes one trip around the Sun once every 87.969 days. Mercury is bright when it is visible from Earth, ranging from −2.0 to 5.5 in apparent magnitude. It cannot be easily seen as it is usually too close to the Sun. Because Mercury is normally lost in the glare of the Sun (except during a solar eclipse), Mercury can only be seen in the morning or evening twilight."
+    description: "IG-88, also known as a Phlutdroid, was a rogue, deadly masculine IG-series assassin droid manufactured by Holowan Laboratories who worked as a bounty hunter"
   },
-  Venus: {
+  TIEFighterPilot: {
     info: [
-      {label: 'Mean distance from the sun (AU)', value: 0.723},
-      {label: 'Diameter relative to earth (km)', value: 0.949},
-      {label: 'Mass relative to earth', value: 0.815}
+      {label: 'First Appearance - Star Wars: Episode IV A New Hope'},
+      {label: 'Affiliation - Galatic Empire, Army Air Corps and Imperial Starfighter Corps'},
+      {label: 'Quote - "Lemme describe an Imp pilot for ya, Artoo—lotsa guts wrapped up in a little skill with no brain." ―Cade Skywalker, to R2-D2'}
     ],
-    description: "Venus is the second planet from the Sun, orbiting it every 224.7 Earth days. It has the longest rotation period (243 days) of any planet in the Solar System and rotates in the opposite direction to most other planets. It has no natural satellites. It is named after the Roman goddess of love and beauty."
+    description: "TIE fighter pilots, also known as Imperial Starfighter Pilots,[10] were an elite class within the military of the Galactic Empire. They piloted the TIE/ln space superiority starfighters, one of the Empire's most recognizable symbols of power."
   },
-  Moon: {
-    info: [],
-    description: "The Moon is an astronomical body that orbits planet Earth, being Earth's only permanent natural satellite. It is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative to the size of the planet that it orbits (its primary)."
+  Stormtrooper: {
+    info: [
+      {label: 'First Appearance - Star Wars: Episode IV A New Hope'},
+      {label: 'Leaders - Galatic Empire, Emperor Palpatine and Darth Vader'},
+      {label: 'Quote - "The Empire has a legion of loyal soldiers that are in endless supply." ―Darth Vader'}
+    ],
+    description: "Stormtroopers were the assault/policing troops of the Galactic Empire. They wear white armor made from plastoid over a black body glove which, in addition to creating an imposing image, was outfitted with a wide array of survival equipment and temperature controls that allowed its wearer to survive in most environments, and were designed to disperse blaster bolt energy."
   }
 };
 
-export default planets;
+export default characters;

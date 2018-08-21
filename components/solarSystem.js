@@ -7,7 +7,7 @@ import {
   AmbientLight,
   DirectionalLight
 } from 'react-vr';
-import planets from '../data/planets';
+import characters from '../data/characters';
 import MyHeader from './myHeader';
 import Planet from './planet';
 import Menu from './menu';
@@ -46,7 +46,7 @@ export default class SolarSystem extends React.Component {
         <Planet currentPlanet={currentPlanet}/>
 
         <Menu
-          planets={planets}
+          characters={characters}
           switchPlanet={this.switchPlanet}
           currentPlanet={currentPlanet} />
 
