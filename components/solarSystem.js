@@ -19,7 +19,7 @@ export default class SolarSystem extends React.Component {
     super();
 
     this.state = {
-      currentPlanet: 'Earth'
+      currentPlanet: 'PilotDroid'
     };
   }
 
@@ -36,7 +36,7 @@ export default class SolarSystem extends React.Component {
       <View>
         <Scene style={{ transform: [ {translate: [0,0,600]} ] }}/>
 
-        <Pano source={asset('stars.jpg')}/>
+        <Pano source={asset('background.jpg')}/>
 
         <AmbientLight intensity={1}/>
         <DirectionalLight intensity={0.5}/>

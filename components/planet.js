@@ -89,7 +89,7 @@ export default class Planet extends React.Component {
             style={[{
               transform: [
               {translate: [0, 0, 0]},
-              {scale: 9},
+              {scale: 45},
               {rotateY: rotation}
             ]}, styles.model]}
           />

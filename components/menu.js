@@ -105,6 +105,6 @@ const styles = StyleSheet.create({
   },
   planetBtnLabel: {
     color: '#fff',
-    fontSize: 20
+    fontSize: 15
   }
 });

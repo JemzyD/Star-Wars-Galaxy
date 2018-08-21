@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
   },
   tileLabel: {
     flex: 7,
-    fontSize: 20,
+    fontSize: 8,
     color: '#fff'
   },
   tileValue: {

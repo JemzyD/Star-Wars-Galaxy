@@ -1,43 +1,43 @@
 const planets = {
-  Earth: {
+  PilotDroid: {
     info: [
-      {label: 'Mean distance from the sun (AU)', value: 1},
-      {label: 'Diameter relative to earth (km)', value: 1},
-      {label: 'Mass relative to earth', value: 1}
+      {label: 'Affiliation - Trade Federation, Galactic Republic and Confederacy of Independent Systems'},
+      {label: 'First Appearance - Star Wars: Episode I The Phantom Menace'},
+      {label: 'Quote - "Flying is for droids." ―Obi-Wan Kenobi'}
     ],
-    description: "Earth is the largest and densest of the inner planets, the only one known to have current geological activity, and the only place where life is known to exist. Its liquid hydrosphere is unique among the terrestrial planets, and it is the only planet where plate tectonics has been observed. Earth's atmosphere is radically different from those of the other planets, having been altered by the presence of life to contain 21% free oxygen."
+    description: "Pilot droids were fifth-degree droids used to pilot capital ships and light freighters. Unlike astromech droids, which were mostly concerned with repair and hyperspace navigation for ships without navigation computers, pilot droids were used primarily to fly vessels in normal space."
   },
-  Neptune: {
+  BattleDroid: {
     info: [
-      {label: 'Mean distance from the sun (AU)', value: 30.06},
-      {label: 'Diameter relative to earth (km)', value: 3.88},
-      {label: 'Mass relative to earth', value: 17.23}
+      {label: 'Affiliation - Trade Federation, Confederacy of Independent Systems and Separatist holdouts'},
+      {label: 'First Appearance - Star Wars: Episode I The Phantom Menace'},
+      {label: 'Quote - "Do not confuse me with one of your mass-produced, fall-in-line, 37-percent kill-rate-at-best, military drones." ―AD-W4, on Separatist battle droids'}
     ],
-    description: "Neptune is the eighth and farthest known planet from the Sun in the Solar System. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. Neptune is 17 times the mass of Earth and is slightly more massive than its near-twin Uranus, which is 15 times the mass of Earth and slightly larger than Neptune."
+    description: "Battle droids, also known as combat droids, were a type of droid designed for combat. Over the years, many different models of battle droid have been utilized by various factions throughout the galaxy."
   },
-  Jupiter: {
+  DarkTrooper: {
     info: [
-      {label: 'Mean distance from the sun (AU)', value: 5.203},
-      {label: 'Diameter relative to earth (km)', value: 11.19},
-      {label: 'Mass relative to earth', value: 317.8}
+      {label: 'Phases - Phase I, II and III(Current Phase)'},
+      {label: 'Equipment - Blast Cannon, ARC caster, Commando Pistol and Thermal Detonators'},
+      {label: 'Quote - "What I unveil today will mark a new era for the Empire. We will be able to decimate the Rebels just as we did the Jedi Knights. At last the Emperor\'s war will be filled only with the glory and beauty of decisive victory." ―Rom Mohc, on Dark Trooper Project'}
     ],
-    description: "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a giant planet with a mass one-thousandth that of the Sun, but two and a half times that of all the other planets in the Solar System combined. Jupiter and Saturn are gas giants; the other two giant planets, Uranus and Neptune are ice giants."
+    description: "The Dark Troopers were advanced battle droids and infantry exoskeletons that featured heavy plating that resembled the armor of a stormtrooper, powerful weapons, and jump packs for increased flexibility and tactical advantage."
   },
-  Mars: {
+  Emperor: {
     info: [
-      {label: 'Mean distance from the sun (AU)', value: 1.524},
-      {label: 'Diameter relative to earth (km)', value: 0.532},
-      {label: 'Mass relative to earth', value: 0.107}
+      {label: 'Master - Darth Plagueis'},
+      {label: 'Apprentices - Darth Maul, Darth Tyranus and Darth Vader'},
+      {label: 'Quote - "Everything is proceeding as I have foreseen." ―Darth Sidious'}
     ],
-    description: "Mars (1.5 AU from the Sun) is smaller than Earth and Venus (0.107 Earth masses). It has an atmosphere of mostly carbon dioxide with a surface pressure of 6.1 millibars (roughly 0.6% of that of Earth). Its surface, peppered with vast volcanoes, such as Olympus Mons, and rift valleys, such as Valles Marineris, shows geological activity that may have persisted until as recently as 2 million years ago. Its red colour comes from iron oxide (rust) in its soil. Mars has two tiny natural satellites (Deimos and Phobos) thought to be captured asteroids."
+    description: "The title of emperor (feminine empress) was held by certain officials and heads of state in certain governments. It was usually, but not always, inherited. Sometimes successful warlords and conquerors created empires by declaring themselves emperor."
   },
-  Saturn: {
+  SuperBattleDroid: {
     info: [
-      {label: 'Mean distance from the sun (AU)', value: 9.529},
-      {label: 'Diameter relative to earth (km)', value: 9.26},
-      {label: 'Mass relative to earth', value: 95.3}
+      {label: 'Place of manufacture - Geonosis'},
+      {label: 'First Appearance - Star Wars: Episode II Attack of the Clones'},
+      {label: '"With these new battle droids we built for you, you\'ll have the finest army in the galaxy" ―Foreman Wat Tambor to Count Dooku'}
     ],
-    description: "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius about nine times that of Earth. Although it has only one-eighth the average density of Earth, with its larger volume Saturn is just over 95 times more massive. Saturn is named after the Roman god of agriculture; its astronomical symbol (♄) represents the god's sickle."
+    description: "B2 super battle droids, simply known as super battle droids, were an advanced battle droid used by the Confederacy of Independent Systems during the Clone Wars."
   },
   Uranus: {
     info: [

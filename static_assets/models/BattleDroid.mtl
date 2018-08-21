@@ -1,5 +1,5 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# File Created: 09.02.2016 02:08:48
+# File Created: 09.02.2016 23:38:07
 
 newmtl 01___Default
 	Ns 10.0000
@@ -12,5 +12,5 @@ newmtl 01___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka C:\Users\Derrick\Desktop\SWBF3\cis\battledroids\superbattledroid\2586bd02out.tga
-	map_Kd C:\Users\Derrick\Desktop\SWBF3\cis\battledroids\superbattledroid\2586bd02out.tga
+	map_Ka C:\Users\Derrick\Desktop\SWBF3\cis\battledroids\battledroid\6daa1f02 1024 1024 32 5out.tga
+	map_Kd C:\Users\Derrick\Desktop\SWBF3\cis\battledroids\battledroid\6daa1f02 1024 1024 32 5out.tga
